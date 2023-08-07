@@ -1,9 +1,6 @@
-from .binance_news import BinanceNews
-from .cryptodotcom_news import CryptoDotCom
-from .cointelegraph_news import CoinTelegraph
+from .scraping_interface import IScraper
+from .planday_docs import PlandayDocs
 
 active_scrapers = {
-    'binance_news': BinanceNews,
-    'crypto_news': CryptoDotCom,
-    'coin_telegraph':CoinTelegraph
+    'planday': PlandayDocs,
 }
