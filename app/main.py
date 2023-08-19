@@ -3,7 +3,6 @@ import argparse
 from loguru import logger
 import pandas as pd
 from scrapers import IScraper, active_scrapers
-from datahandler import SentimentDBInterface, create_db
 
 def parse_args():
     desc = """
@@ -12,17 +11,15 @@ def parse_args():
             very googlable python code.
         """
     parser = argparse.ArgumentParser(prog='Doc Fetcher',description=desc, usage='just press play')
-    parser.add_argument('-t', '--test', action='store_true', help="Won't save to db, but prints instead")
+    parser.add_argument('-t', '--test', action='store_true', help="Log level debug")
     parser.add_argument('-s', '--scraper', choices=['all']+list(active_scrapers.keys()), 
                         default='all', help='Specify a single scraper to run')
-    parser.add_argument('--init', action='store_true', help="Populate the database, then run.")
     return parser.parse_args()
     
 
-def run_scrape(args):
-    db = SentimentDBInterface()
+def run_scrape():
     for scraper_name in active_scrapers:
-        try:
+        #try:
             scraper:IScraper = active_scrapers[scraper_name]()
 
             articles: pd.DataFrame = scraper.run()
@@ -30,18 +27,14 @@ def run_scrape(args):
 
             articles = articles[['origin','url','title','updated','doc_links','vid_links','text']]
 
-            # save to db
-            if args.test:
-                print('Labels:')
-                print(articles.columns)
-                print('-'*45)
-                print(articles)
-                articles.to_csv(f'./xfetcher_debug_{scraper_name}.csv')
-            else:
-                logger.info('finished scraping {} | new entries: {} | inserting into db...', scraper_name, len(articles))
-                db.insert_result_dataframe(articles)
-        except Exception as e:
-            logger.error('{} thrown on {}', e, scraper_name)
+            logger.info('finished scraping {} | entries: {}', scraper_name, len(articles))
+            print('Labels:')
+            print(articles.columns)
+            print('-'*45)
+            print(articles)
+            articles.to_csv(f'./xfetcher_{scraper_name}.csv')
+        #except Exception as e:
+        #    logger.error('{} thrown on {}', e, scraper_name)
 
 
 def main():
@@ -60,13 +53,11 @@ def main():
     logger.remove(0)
     logger.add(sys.stderr, format=logger_format, level="INFO" if not args.test else "DEBUG")
 
-    if args.init:
-        create_db()
     if args.scraper != 'all':
         active_scrapers = {args.scraper:active_scrapers.pop(args.scraper)}
     
     #:repeat
-    run_scrape(args)
+    run_scrape()
     # sleep
     
 

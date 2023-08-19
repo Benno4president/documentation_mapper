@@ -21,7 +21,7 @@ class IScraper(ABC):
         self.base_url = ''
 
         
-    def run(self) -> pd.DataFrame:
+    def run(self, maximum:int=-1) -> pd.DataFrame:
         """
         get page -> extract body w/ 
             * url
@@ -37,21 +37,28 @@ class IScraper(ABC):
         columns=['url','title','updated','doc_links','vid_links','text']
         logger.info('Starting mapping {}.', self.name)
 
+        max_size = maximum
         article_df = pd.DataFrame(columns=columns)
-        for doc_url in visit_queue:
+        #for doc_url in visit_queue:
+        while len(visit_queue) > 0:
+            doc_url = visit_queue.pop(0)
+            if max_size == 0:
+                break
+            max_size -= 1
             # get
-            logger.info('Getting: {} from stack of {}', doc_url, len(visit_queue))
+            logger.info('Queue: {} | Visited: {}', len(visit_queue), len(visit_done))
+            logger.info('Getting: {}', doc_url)
             res = requests.get(doc_url, headers={'User-Agent':'Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0'})
             logger.debug('Page content size: {}', len(res.content))
             soup = BeautifulSoup(res.content, 'html.parser')
             row_tuple = self.__scrape_documentation(soup)
             # onward
-            visit_queue.remove(doc_url)
-            visit_done.append(doc_url)
             new_urls = row_tuple[2]
-            new_urls = [x for x in new_urls if x not in visit_queue + visit_done and x.startswith(self.base_url)]
+            new_urls = [x for x in new_urls if (x not in visit_queue + visit_done)]
             visit_queue += new_urls
-            logger.info('Added {} new pages', len(new_urls))
+            #visit_queue.remove(doc_url)
+            visit_done.append(doc_url)
+            logger.info('Added {} new pages to visit', len(new_urls))
             logger.debug('{}', new_urls)
             # stack
             row_df:pd.DataFrame = pd.DataFrame([[doc_url,*row_tuple]], columns=columns)
@@ -63,7 +70,7 @@ class IScraper(ABC):
     @staticmethod
     def standardize_datetime(timestr:str, in_format:str) -> str:
         """
-        Used to convert a datetime string to a consistent format.
+        Convert a datetime string to a consistent format.
         Docs: https://docs.python.org/2/library/datetime.html?highlight=strftime#strftime-and-strptime-behavior
         """
         return str(datetime.datetime.strptime(timestr, in_format).strftime('%Y-%m-%d %H:%M'))
