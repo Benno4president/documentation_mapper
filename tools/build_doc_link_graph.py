@@ -3,6 +3,7 @@ import csv
 import pandas as pd
 import argparse
 import pathlib
+import ast
 
 def simple_network_graph(df:pd.DataFrame):
     # ,origin,url,title,updated,doc_links,vid_links,text
@@ -12,9 +13,11 @@ def simple_network_graph(df:pd.DataFrame):
     nodes = []
     edges = []
     for index, row in df.iterrows():
-        for edge in row['doc_links']:
-            edges.append((row['url'],edge))
-        nodes.append((row['url'], {**row, 'label':row['title']}))
+        links = row.pop('doc_links')
+        node_url = row.pop('url')
+        for edge in links:
+            edges.append((node_url,edge))
+        nodes.append((node_url, {**row, 'label':row['title'], 'type':'article'}))
 
     G = nx.Graph()
     G.add_nodes_from(nodes)
@@ -34,7 +37,9 @@ if __name__ == '__main__':
     args = parse_args()
 
     doc_df = pd.read_csv(args.file, index_col=0, quotechar='"', encoding='utf8', doublequote=True, quoting=csv.QUOTE_NONNUMERIC, dtype=object, on_bad_lines='skip')
-    
+    doc_df['doc_links'] = doc_df['doc_links'].apply(lambda x: ast.literal_eval(x))
+
+
     graph = simple_network_graph(doc_df)
 
     output_file_network = "link_network.gexf"

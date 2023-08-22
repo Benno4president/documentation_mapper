@@ -12,8 +12,6 @@ git clone git@github.com:Benno4president/documentation_mapper.git
 python3 -m venv venv
 # install the required libs.
 pip3 install -r requirements.txt
-# install the driver needed by selenium.
-sudo apt install chromium-chromedriver
 ```
 
 ## Usage
@@ -23,9 +21,3 @@ python3 app/main.py --help
 # to build a .gexf file.
 python3 tools/build_doc_link_graph.py [path-to-file]
 ```
-
-
-## dev notes
-use lib:
-- https://github.com/dbader/schedule
-- https://github.com/Delgan/loguru
