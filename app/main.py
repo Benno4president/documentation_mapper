@@ -32,7 +32,7 @@ def run_scrape():
             print(articles.columns)
             print('-'*45)
             print(articles)
-            articles.to_csv(f'./xfetcher_{scraper_name}.csv')
+            articles.to_csv(f'./xfetcher_{scraper_name}.csv', index=False)
         #except Exception as e:
         #    logger.error('{} thrown on {}', e, scraper_name)
 
