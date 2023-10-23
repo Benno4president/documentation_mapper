@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2023-09-26">
-    <creator>NetworkX 3.1</creator>
+  <meta lastmodifieddate="2023-10-23">
+    <creator>NetworkX 3.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
     <attributes mode="static" class="node">
-      <attribute id="0" title="title" type="string" />
-      <attribute id="1" title="updated" type="string" />
+      <attribute id="0" title="title" type="double" />
+      <attribute id="1" title="updated" type="double" />
       <attribute id="2" title="text" type="string" />
       <attribute id="3" title="type" type="string" />
     </attributes>
     <nodes>
-      <node id="https://help.planday.com.au/en-au/" label="None">
+      <node id="https://help.planday.com.au/en-au/" label="nan">
         <attvalues>
-          <attvalue for="0" value="None" />
-          <attvalue for="1" value="None" />
+          <attvalue for="0" value="NaN" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="Featured guides Understanding the structure of Planday Get started – Planday Starter Set up Planday Plus: Step 1 Xero integration set-up: Step 1 How to set up your employees with supported Awards How to set up your own employment terms – Step 1 How to manage and approve Timesheets in Planday Introduction to Leave Accruals and Balances Get started Articles for a successful start with Planday as an admin or manager. 4 authors 16 articles Set up Xero Integration Set up Planday with your Xero Integration. 2 authors 6 articles FAQs Answers to frequently asked questions about Planday. 4 authors 27 articles Using Planday as an employee Learn how to use Planday as an employee. 2 authors 19 articles People Configure your organisation in Planday and manage employee data. M 3 authors 15 articles Scheduling Discover tools and options to make your scheduling as efficient as possible. 1 author 14 articles Payroll &amp; Revenue  Help with wages, salaries, revenue or payroll supplements in Planday. 5 authors 13 articles Time tracking Learn how to use the Punch Clock, manage breaks and approve Timesheets. 4 authors 11 articles Leave, Overtime &amp; Vacation Manage your employees' holiday entitlement and overtime in Planday. M 5 authors 8 articles Contracts &amp; Documents Use Planday to manage work-related documents and employment contracts. 2 authors 6 articles Integrations Connect Planday with third-party service providers. 1 author 4 articles Your data Learn how to generate reports and read about data management in Planday. M 3 authors 11 articles Accountants &amp; Bookkeepers Access enablement material that allows Accountants and Bookkeepers to educate themselves and their clients and become a Planday certified partner. L 1 author 9 articles" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -30,7 +30,7 @@
       <node id="https://help.planday.com.au/en-au/collections/258-set-up-xero-integration" label="Set up Xero Integration">
         <attvalues>
           <attvalue for="0" value="Set up Xero Integration" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Set up Xero Integration Set up Xero Integration Set up Planday with your Xero Integration. By Saad and 1 other 2 authors 6 articles Xero integration overview Xero integration set-up: Step 1 Xero integration set-up: Step 2 Xero integration – Payroll report overview Xero integration FAQs Xero integration – Single authentication and Single sign-on with Xero credentials" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -38,7 +38,7 @@
       <node id="https://help.planday.com.au/en-au/collections/221-integrations" label="Integrations">
         <attvalues>
           <attvalue for="0" value="Integrations" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Integrations Integrations Connect Planday with third-party service providers. By Stina 1 author 4 articles Square Square integration – Setup guide with Planday Square integration – FAQ and troubleshooting Lightspeed Lightspeed Retail POS (X–Series) integration – Setup guide with Planday Lightspeed Retail POS (X–Series) integration – FAQ and troubleshooting" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -46,7 +46,7 @@
       <node id="https://help.planday.com.au/en-au/collections/212-scheduling" label="Scheduling">
         <attvalues>
           <attvalue for="0" value="Scheduling" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Scheduling Scheduling Discover tools and options to make your scheduling as efficient as possible. By Stina 1 author 14 articles Get to know the desktop schedule Start scheduling Shifts Create and edit Shifts Move, copy, delete and approve Shifts Create and use Shift types Open shifts, Shift requests and Shift swaps Scheduling tools Scheduling with Positions and Sections Create and use Schedule templates Schedule based on Availability preferences How to use Contracted availability for employees Hide days or periods in the Schedule Leave a note in the Schedule How to use Schedule filters How to see Schedule history and edits" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -62,7 +62,7 @@
       <node id="https://help.planday.com.au/en-au/collections/224-your-data" label="Your data">
         <attvalues>
           <attvalue for="0" value="Your data" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Your data Your data Learn how to generate reports and read about data management in Planday. M By Stina and 2 others 3 authors 11 articles Generate reports in Planday Does Planday do automatic profiling? Managing cookies on the Planday website Complaints Handling Process Data handling in Planday How does Planday use data analytics? How do I correct the data in Planday? How do I ask Planday to delete my data? Manage your data How do I manage my notification preferences? How to access and export your data? How do I ask for details on my data Planday holds? How do I get a copy of my data from Planday?" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -70,7 +70,7 @@
       <node id="https://help.planday.com.au/en-au/collections/220-leave-overtime-vacation" label="Leave, Overtime &amp; Vacation">
         <attvalues>
           <attvalue for="0" value="Leave, Overtime &amp; Vacation" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Leave, Overtime &amp; Vacation Leave, Overtime &amp; Vacation Manage your employees' holiday entitlement and overtime in Planday. M By Stina and 4 others 5 authors 8 articles Public holiday calendars Public holiday calendars FAQs How to create and assign Public holiday calendars Absence &amp; Vacation Introduction to Leave Accruals and Balances How to assign leave accounts to your employees How to request leave on behalf of an employee How to approve or decline leave requests from employees Description of the leave account templates Overtime Overview of Contract rules and Overtime" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -78,7 +78,7 @@
       <node id="https://help.planday.com.au/en-au/collections/219-contracts-documents" label="Contracts &amp; Documents">
         <attvalues>
           <attvalue for="0" value="Contracts &amp; Documents" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Contracts &amp; Documents Contracts &amp; Documents Use Planday to manage work-related documents and employment contracts. By Saad and 1 other 2 authors 6 articles Employment contracts Create and upload contract templates How to create and send a contract to an employee Contracts &amp; Documents - Troubleshooting Merge fields for Employee contracts Documents How to upload files and notes and share them with employees List of supported file formats for documents upload" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -94,7 +94,7 @@
       <node id="https://help.planday.com.au/en-au/collections/214-get-started" label="Get started">
         <attvalues>
           <attvalue for="0" value="Get started" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Get started Get started Articles for a successful start with Planday as an admin or manager. By Stina and 3 others 4 authors 16 articles Understanding the structure of Planday Get started – Planday Starter Set up Planday Plus: Step 1 Set up Planday Plus: Step 2 Get to know the Home dashboard Planday video tutorials for admins and managers Australian awards Introduction to Clerks Award [MA000002] Introduction to Fast Food Industry Award [MA000003] Introduction to General Retail Industry Award [MA000004] Introduction to Hospitality Industry (General) Award [MA000009] Introduction to Restaurant Industry Award [MA000119] How to set up your employees with supported Awards How to update Modern Award wages Product Terms Set up your own employment terms How to set up your own employment terms – Step 1 How to set up your own employment terms – Step 2" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -110,7 +110,7 @@
       <node id="https://help.planday.com.au/en-au/collections/265-accountants-bookkeepers" label="Accountants &amp; Bookkeepers">
         <attvalues>
           <attvalue for="0" value="Accountants &amp; Bookkeepers" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Accountants &amp; Bookkeepers Accountants &amp; Bookkeepers Access enablement material that allows Accountants and Bookkeepers to educate themselves and their clients and become a Planday certified partner. L By Luke 1 author 9 articles How to understand Planday Get started with Planday – for partners Get started with Planday – for clients Partner demo training guide How to refer Planday Referral guide How to support your clients using Planday Onboarding journey FAQ for Accountants and Bookkeepers Planday and Xero Payroll process What is Workforce Management (WFM) software? Webinars Partner webinar series" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -118,7 +118,7 @@
       <node id="https://help.planday.com.au/en-au/collections/226-using-planday-as-an-employee" label="Using Planday as an employee">
         <attvalues>
           <attvalue for="0" value="Using Planday as an employee" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Using Planday as an employee Using Planday as an employee Learn how to use Planday as an employee. By Saad and 1 other 2 authors 19 articles First steps Joining Planday How to log into Planday Introduction to Planday app for employees Planday for employees - Using Planday on a web browser Adding and modifying your personal information in Planday Planday video tutorials for employees Using Punch Clock Punch in and out using the Planday app Your schedule Shift basics in the app for employees How to apply for open shifts from the app How to swap, handover and sell shifts via the Planday app Vacation and Availability How to apply for leave or absence Set your availability via the Planday app Your Planday Account View contracts and documents on the Planday app How do I sign a contract electronically in Planday How to synchronise your schedule with an external calendar How to synchronise your schedule with the iPhone calendar app How to synchronise your schedule on Android with an external calendar Communicate With Planday Messaging through the Planday app Read News and respond to Events from the app" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -126,7 +126,7 @@
       <node id="https://help.planday.com.au/en-au/collections/211-payroll-revenue" label="Payroll &amp; Revenue ">
         <attvalues>
           <attvalue for="0" value="Payroll &amp; Revenue " />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Payroll &amp; Revenue  Payroll &amp; Revenue  Help with wages, salaries, revenue or payroll supplements in Planday. By Stina and 4 others 5 authors 13 articles How to set an employee’s hourly wage How to set an employee's salary How to display the payroll costs of salaried employees in the schedule How to set a pay period How to change salary from an hourly wage to fixed Payroll supplements Payroll reporting Planday payroll export — Health check Xero pay run — Health check Customise your payroll data fields Using Shift types for reporting and payroll How to lock a payroll period Revenue How to configure revenue in Planday How to show additional payroll costs on the schedule" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -150,7 +150,7 @@
       <node id="https://help.planday.com.au/en-au/collections/217-time-tracking" label="Time tracking">
         <attvalues>
           <attvalue for="0" value="Time tracking" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Time tracking Time tracking Learn how to use the Punch Clock, manage breaks and approve Timesheets. By Saad and 3 others 4 authors 11 articles See contracted hours on the schedule Breaks How to set up Break rules How to work with breaks Setting up Punch Clock breaks Punch Clock Set up Punch Clock Punch Clock - Configure rounding settings For employees: What you can do if you have problems with the Punch Clock Punch Clock - Set up rules for deviations from the schedule Use PIN codes for Punch Clock Timesheets How to manage and approve Timesheets in Planday Planday Kiosk app Planday Kiosk app for iPad" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -158,7 +158,7 @@
       <node id="https://help.planday.com.au/en-au/collections/218-people" label="People">
         <attvalues>
           <attvalue for="0" value="People" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections People People Configure your organisation in Planday and manage employee data. M By Stina and 2 others 3 authors 15 articles Organise your business Create or edit a Department Delete or restore Departments Create or edit Employee groups Delete or restore an Employee group Create and edit Employee types Create Contract rules Manage employee data Create, edit, and invite employees Overview of Access levels How to assign Access levels to your employees Employee information: visibility and access settings Export employee data How to deactivate or reactivate an employee Send messages via Planday as a manager How to modify the employee form Single vs Dual column view" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -182,7 +182,7 @@
       <node id="https://help.planday.com.au/en-au/collections/225-faqs" label="FAQs">
         <attvalues>
           <attvalue for="0" value="FAQs" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections FAQs FAQs Answers to frequently asked questions about Planday. By Saad and 3 others 4 authors 27 articles Download Planday app for mobile devices How does Multi-factor authentication (MFA) work? How to change the first day of the week Planday Domain Whitelisting Set notifications on shift changes or requests Update Planday shifts for spring/summer DST Update Planday shifts for fall/winter DST How to change personal notifications in Planday Profile settings How to reset your Planday password How to change username in Planday I can't log in to Planday How to change language settings How to change profile picture in Planday Browser and device support Supported web browsers Supported devices - iOS Supported devices - Android Clearing your browser cache How to open the developer console in your web browser Billing and Subscriptions How to buy a Planday subscription Xero+Planday add-on bundle – Billing &amp; Packaging FAQs Information Security How does Planday backup data? Where is data processed and stored in Planday? How is the data, processed within Planday, encrypted? Do we keep a record of deleted employee data? Does Planday store geographical location data? What is Planday’s incident management process? Does Planday use sub-processors or 3rd party contractors?" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -190,7 +190,7 @@
       <node id="https://help.planday.com.au/en-au/collections/413-absence-vacation" label="Absence &amp; Vacation">
         <attvalues>
           <attvalue for="0" value="Absence &amp; Vacation" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Leave, Overtime &amp; Vacation Absence &amp; Vacation Absence &amp; Vacation By Stina and 2 others 3 authors 5 articles Introduction to Leave Accruals and Balances How to assign leave accounts to your employees How to request leave on behalf of an employee How to approve or decline leave requests from employees Description of the leave account templates" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -254,7 +254,7 @@
       <node id="https://help.planday.com.au/en-au/collections/227-lightspeed" label="Lightspeed">
         <attvalues>
           <attvalue for="0" value="Lightspeed" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Integrations Lightspeed Lightspeed By Stina 1 author 2 articles Lightspeed Retail POS (X–Series) integration – Setup guide with Planday Lightspeed Retail POS (X–Series) integration – FAQ and troubleshooting" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -278,7 +278,7 @@
       <node id="https://help.planday.com.au/en-au/collections/223-square" label="Square">
         <attvalues>
           <attvalue for="0" value="Square" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Integrations Square Square By Stina 1 author 2 articles Square integration – Setup guide with Planday Square integration – FAQ and troubleshooting" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -374,7 +374,7 @@
       <node id="https://help.planday.com.au/en-au/collections/242-scheduling-tools" label="Scheduling tools">
         <attvalues>
           <attvalue for="0" value="Scheduling tools" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Scheduling Scheduling tools Scheduling tools By Stina 1 author 8 articles Scheduling with Positions and Sections Create and use Schedule templates Schedule based on Availability preferences How to use Contracted availability for employees Hide days or periods in the Schedule Leave a note in the Schedule How to use Schedule filters How to see Schedule history and edits" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -390,7 +390,7 @@
       <node id="https://help.planday.com.au/en-au/collections/241-shifts" label="Shifts">
         <attvalues>
           <attvalue for="0" value="Shifts" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Scheduling Shifts Shifts By Stina 1 author 4 articles Create and edit Shifts Move, copy, delete and approve Shifts Create and use Shift types Open shifts, Shift requests and Shift swaps" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -438,7 +438,7 @@
       <node id="https://help.planday.com.au/en-au/collections/411-timesheets" label="Timesheets">
         <attvalues>
           <attvalue for="0" value="Timesheets" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Time tracking Timesheets Timesheets By Saad 1 author 1 article How to manage and approve Timesheets in Planday" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -486,7 +486,7 @@
       <node id="https://help.planday.com.au/en-au/collections/244-manage-your-data" label="Manage your data">
         <attvalues>
           <attvalue for="0" value="Manage your data" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Your data Manage your data Manage your data M By Saad and 1 other 2 authors 4 articles How do I manage my notification preferences? How to access and export your data? How do I ask for details on my data Planday holds? How do I get a copy of my data from Planday?" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -550,7 +550,7 @@
       <node id="https://help.planday.com.au/en-au/collections/243-data-handling-in-planday" label="Data handling in Planday">
         <attvalues>
           <attvalue for="0" value="Data handling in Planday" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Your data Data handling in Planday Data handling in Planday By Saad 1 author 3 articles How does Planday use data analytics? How do I correct the data in Planday? How do I ask Planday to delete my data?" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -566,7 +566,7 @@
       <node id="https://help.planday.com.au/en-au/collections/412-public-holiday-calendars" label="Public holiday calendars">
         <attvalues>
           <attvalue for="0" value="Public holiday calendars" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Leave, Overtime &amp; Vacation Public holiday calendars Public holiday calendars M By Stina and 1 other 2 authors 2 articles Public holiday calendars FAQs How to create and assign Public holiday calendars" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -622,7 +622,7 @@
       <node id="https://help.planday.com.au/en-au/collections/414-overtime" label="Overtime">
         <attvalues>
           <attvalue for="0" value="Overtime" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Leave, Overtime &amp; Vacation Overtime Overtime L By Luke 1 author 1 article Overview of Contract rules and Overtime" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -638,7 +638,7 @@
       <node id="https://help.planday.com.au/en-au/collections/236-employment-contracts" label="Employment contracts">
         <attvalues>
           <attvalue for="0" value="Employment contracts" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Contracts &amp; Documents Employment contracts Employment contracts By Saad 1 author 4 articles Create and upload contract templates How to create and send a contract to an employee Contracts &amp; Documents - Troubleshooting Merge fields for Employee contracts" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -662,7 +662,7 @@
       <node id="https://help.planday.com.au/en-au/collections/235-documents" label="Documents">
         <attvalues>
           <attvalue for="0" value="Documents" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Contracts &amp; Documents Documents Documents By Stina 1 author 2 articles How to upload files and notes and share them with employees List of supported file formats for documents upload" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -702,7 +702,7 @@
       <node id="https://help.planday.com.au/en-au/collections/410-set-up-your-own-employment-terms" label="Set up your own employment terms">
         <attvalues>
           <attvalue for="0" value="Set up your own employment terms" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Get started Set up your own employment terms Set up your own employment terms By Frederik and 1 other 2 authors 2 articles How to set up your own employment terms – Step 1 How to set up your own employment terms – Step 2" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -750,7 +750,7 @@
       <node id="https://help.planday.com.au/en-au/collections/334-australian-awards" label="Australian awards">
         <attvalues>
           <attvalue for="0" value="Australian awards" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Get started Australian awards Australian awards By Stina and 2 others 3 authors 8 articles Introduction to Clerks Award [MA000002] Introduction to Fast Food Industry Award [MA000003] Introduction to General Retail Industry Award [MA000004] Introduction to Hospitality Industry (General) Award [MA000009] Introduction to Restaurant Industry Award [MA000119] How to set up your employees with supported Awards How to update Modern Award wages Product Terms" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -814,7 +814,7 @@
       <node id="https://help.planday.com.au/en-au/collections/268-how-to-support-your-clients-using-planday" label="How to support your clients using Planday">
         <attvalues>
           <attvalue for="0" value="How to support your clients using Planday" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Accountants &amp; Bookkeepers How to support your clients using Planday How to support your clients using Planday L By Luke 1 author 4 articles Onboarding journey FAQ for Accountants and Bookkeepers Planday and Xero Payroll process What is Workforce Management (WFM) software?" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -822,7 +822,7 @@
       <node id="https://help.planday.com.au/en-au/collections/266-how-to-understand-planday" label="How to understand Planday">
         <attvalues>
           <attvalue for="0" value="How to understand Planday" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Accountants &amp; Bookkeepers How to understand Planday How to understand Planday Use these documents to better understand the top features and benefits of Planday to yourself and your clients.  L By Luke 1 author 3 articles Get started with Planday – for partners Get started with Planday – for clients Partner demo training guide" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -838,7 +838,7 @@
       <node id="https://help.planday.com.au/en-au/collections/267-how-to-refer-planday" label="How to refer Planday">
         <attvalues>
           <attvalue for="0" value="How to refer Planday" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Accountants &amp; Bookkeepers How to refer Planday How to refer Planday L By Luke 1 author 1 article Referral guide" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -886,7 +886,7 @@
       <node id="https://help.planday.com.au/en-au/collections/461-webinars" label="Webinars">
         <attvalues>
           <attvalue for="0" value="Webinars" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Accountants &amp; Bookkeepers Webinars Webinars Register now for a series of webinars designed for Accountant and Bookkeepers looking to find our more about Planday L By Luke 1 author 1 article Partner webinar series" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -918,7 +918,7 @@
       <node id="https://help.planday.com.au/en-au/collections/247-using-punch-clock" label="Using Punch Clock">
         <attvalues>
           <attvalue for="0" value="Using Punch Clock" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Using Planday as an employee Using Punch Clock Using Punch Clock By Stina 1 author 1 article Punch in and out using the Planday app" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -966,7 +966,7 @@
       <node id="https://help.planday.com.au/en-au/collections/250-your-planday-account" label="Your Planday Account">
         <attvalues>
           <attvalue for="0" value="Your Planday Account" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Using Planday as an employee Your Planday Account Your Planday Account By Stina and 1 other 2 authors 5 articles View contracts and documents on the Planday app How do I sign a contract electronically in Planday How to synchronise your schedule with an external calendar How to synchronise your schedule with the iPhone calendar app How to synchronise your schedule on Android with an external calendar" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -990,7 +990,7 @@
       <node id="https://help.planday.com.au/en-au/collections/248-your-schedule" label="Your schedule">
         <attvalues>
           <attvalue for="0" value="Your schedule" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Using Planday as an employee Your schedule Your schedule By Stina 1 author 3 articles Shift basics in the app for employees How to apply for open shifts from the app How to swap, handover and sell shifts via the Planday app" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -998,7 +998,7 @@
       <node id="https://help.planday.com.au/en-au/collections/254-first-steps" label="First steps">
         <attvalues>
           <attvalue for="0" value="First steps" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Using Planday as an employee First steps First steps By Saad and 1 other 2 authors 6 articles Joining Planday How to log into Planday Introduction to Planday app for employees Planday for employees - Using Planday on a web browser Adding and modifying your personal information in Planday Planday video tutorials for employees" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -1038,7 +1038,7 @@
       <node id="https://help.planday.com.au/en-au/collections/251-communicate-with-planday" label="Communicate With Planday">
         <attvalues>
           <attvalue for="0" value="Communicate With Planday" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Using Planday as an employee Communicate With Planday Communicate With Planday By Stina and 1 other 2 authors 2 articles Messaging through the Planday app Read News and respond to Events from the app" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -1062,7 +1062,7 @@
       <node id="https://help.planday.com.au/en-au/collections/249-vacation-and-availability" label="Vacation and Availability">
         <attvalues>
           <attvalue for="0" value="Vacation and Availability" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Using Planday as an employee Vacation and Availability Vacation and Availability By Stina 1 author 2 articles How to apply for leave or absence Set your availability via the Planday app" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -1158,7 +1158,7 @@
       <node id="https://help.planday.com.au/en-au/collections/240-revenue" label="Revenue">
         <attvalues>
           <attvalue for="0" value="Revenue" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Payroll &amp; Revenue  Revenue Revenue By Stina 1 author 2 articles How to configure revenue in Planday How to show additional payroll costs on the schedule" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -1182,7 +1182,7 @@
       <node id="https://help.planday.com.au/en-au/collections/239-payroll-reporting" label="Payroll reporting">
         <attvalues>
           <attvalue for="0" value="Payroll reporting" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Payroll &amp; Revenue  Payroll reporting Payroll reporting M By Maud and 3 others 4 authors 5 articles Planday payroll export — Health check Xero pay run — Health check Customise your payroll data fields Using Shift types for reporting and payroll How to lock a payroll period" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -1286,7 +1286,7 @@
       <node id="https://help.planday.com.au/en-au/collections/233-breaks" label="Breaks">
         <attvalues>
           <attvalue for="0" value="Breaks" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Time tracking Breaks Breaks By Stina and 1 other 2 authors 3 articles How to set up Break rules How to work with breaks Setting up Punch Clock breaks" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -1326,7 +1326,7 @@
       <node id="https://help.planday.com.au/en-au/collections/232-punch-clock" label="Punch Clock">
         <attvalues>
           <attvalue for="0" value="Punch Clock" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Time tracking Punch Clock Punch Clock M By Stina and 2 others 3 authors 5 articles Set up Punch Clock Punch Clock - Configure rounding settings For employees: What you can do if you have problems with the Punch Clock Punch Clock - Set up rules for deviations from the schedule Use PIN codes for Punch Clock" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -1342,7 +1342,7 @@
       <node id="https://help.planday.com.au/en-au/collections/234-planday-kiosk-app" label="Planday Kiosk app">
         <attvalues>
           <attvalue for="0" value="Planday Kiosk app" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections Time tracking Planday Kiosk app Planday Kiosk app By Saad 1 author 1 article Planday Kiosk app for iPad" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -1358,7 +1358,7 @@
       <node id="https://help.planday.com.au/en-au/collections/256-manage-employee-data" label="Manage employee data">
         <attvalues>
           <attvalue for="0" value="Manage employee data" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections People Manage employee data Manage employee data M By Stina and 2 others 3 authors 9 articles Create, edit, and invite employees Overview of Access levels How to assign Access levels to your employees Employee information: visibility and access settings Export employee data How to deactivate or reactivate an employee Send messages via Planday as a manager How to modify the employee form Single vs Dual column view" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -1446,7 +1446,7 @@
       <node id="https://help.planday.com.au/en-au/collections/257-organise-your-business" label="Organise your business">
         <attvalues>
           <attvalue for="0" value="Organise your business" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections People Organise your business Organise your business M By Stina and 1 other 2 authors 6 articles Create or edit a Department Delete or restore Departments Create or edit Employee groups Delete or restore an Employee group Create and edit Employee types Create Contract rules" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -1518,7 +1518,7 @@
       <node id="https://help.planday.com.au/en-au/collections/246-billing-and-subscriptions" label="Billing and Subscriptions">
         <attvalues>
           <attvalue for="0" value="Billing and Subscriptions" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections FAQs Billing and Subscriptions Billing and Subscriptions M By Saad and 1 other 2 authors 2 articles How to buy a Planday subscription Xero+Planday add-on bundle – Billing &amp; Packaging FAQs" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -1598,7 +1598,7 @@
       <node id="https://help.planday.com.au/en-au/collections/253-information-security" label="Information Security">
         <attvalues>
           <attvalue for="0" value="Information Security" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections FAQs Information Security Information Security By Saad 1 author 7 articles How does Planday backup data? Where is data processed and stored in Planday? How is the data, processed within Planday, encrypted? Do we keep a record of deleted employee data? Does Planday store geographical location data? What is Planday’s incident management process? Does Planday use sub-processors or 3rd party contractors?" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -1662,7 +1662,7 @@
       <node id="https://help.planday.com.au/en-au/collections/245-browser-and-device-support" label="Browser and device support">
         <attvalues>
           <attvalue for="0" value="Browser and device support" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections FAQs Browser and device support Browser and device support By Saad and 1 other 2 authors 5 articles Supported web browsers Supported devices - iOS Supported devices - Android Clearing your browser cache How to open the developer console in your web browser" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -1678,7 +1678,7 @@
       <node id="https://help.planday.com.au/en-au/collections/379-profile-settings" label="Profile settings">
         <attvalues>
           <attvalue for="0" value="Profile settings" />
-          <attvalue for="1" value="None" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="All Collections FAQs Profile settings Profile settings By Saad 1 author 5 articles How to reset your Planday password How to change username in Planday I can't log in to Planday How to change language settings How to change profile picture in Planday" />
           <attvalue for="3" value="article" />
         </attvalues>
@@ -2003,10 +2003,10 @@
           <attvalue for="3" value="article" />
         </attvalues>
       </node>
-      <node id="https://help.planday.com.au/en-au/?q=supplement" label="None">
+      <node id="https://help.planday.com.au/en-au/?q=supplement" label="nan">
         <attvalues>
-          <attvalue for="0" value="None" />
-          <attvalue for="1" value="None" />
+          <attvalue for="0" value="NaN" />
+          <attvalue for="1" value="NaN" />
           <attvalue for="2" value="Search results for: supplement Payroll  supplements Set predetermined  supplements to  pay employees for overtime and set payment rules if they go over their contracted hours… Week-based  supplement , Day-based supplements and Contract rules  supplement … Title: Name of the  supplement . Description: Include a description of the  supplement Overview of Contract rules and Overtime Depending on when the payroll  supplement  needs to be triggered for payment will determine the  supplement … Go to Settings &gt; Payroll &gt; Payroll  supplement  Press the Create button under Payroll  supplement … Step 3: Create Payroll  supplements for  overtime How to set up your own employment terms – Step 2 Supplement  type: Day-based  supplement  If connected to Xero:  Create in Xero as Overtime… 3. Create payroll  supplements for  different overtime rates… Navigate to Settings &gt; Payroll &gt; Payroll  supplement  to create the overtime rates applicable to your employees How to set up your own employment terms – Step 1 Supplement  type: Normal  supplement  for penalties If connected to Xero:  Create in Xero as… 4. Automating Penalty rates using Payroll  supplements … These rates will apply automatically based on the parameters input when creating the payroll  supplement Xero integration – Payroll report overview Payroll  supplements … Under Payroll  supplement , you can see a different overview of all the overtime and penalty rates that Create and edit Shifts Supplement : From the drop-down list, you can select a Payroll  supplement  to apply to this Shift Public holiday calendars FAQs For example, you have a  supplement  called &quot;Overtime (Public Holiday)&quot; that is applied to a specific employee… If you add a day to the public holiday calendar, the  supplement  will be applied to that day and if you… remove a day, the  supplement  will be removed from that day How to upload files and notes and share them with employees A few examples include: Personal documents: These can be manually signed papers,  supplement  contracts… These can be HR-related files, such as manually signed documents,  supplement  contracts, work permits, Introduction to Clerks Award [MA000002] Payroll  supplements … Note: Casual loading for casual employees is added automatically and separately with a payroll  supplement Introduction to Fast Food Industry Award [MA000003] Payroll  Supplements … Note: casual loading for casual employees is added automatically and separately with a payroll  supplement" />
           <attvalue for="3" value="article" />
         </attvalues>
