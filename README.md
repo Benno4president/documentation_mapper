@@ -1,8 +1,11 @@
 # Documentation Mapper
+![Final network abstract](planday.png)
 This repo contains:
 - A documentation scraper app.
 - A data analysis 'lib' containing a set of text sentiment methods.
 - A set of tools to pull and transform stored data.
+
+![Final network](planday_text.png)
 
 ## Installation
 ```bash
